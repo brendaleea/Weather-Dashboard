@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<head> 
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather Dashboard</title>
+  </head>
 
+  <body class="bg-slate-400">
+    <header class="text-center text-a p-10 text-3xl font-extrabold bg-cyan-500">
+      Weather Dashboard
+    </header>
 
-  <title> Weather Dashboard</title>
-</head>
+    <main>
+      <div class="flex gap-3 flex-col w-40  mb-5 text-center ml-2">
+        <h2 class="text-2xl	">Search for a City:</h2>
 
-<body>
+        <input
+          type="text"
+          placeholder="Austin, Texas"
+          maxlength="50"
+          size="25"
+        />
+        <button class="bg-cyan-500 px-20 hover:bg-white">Search</button>
+        </div>
 
-<header class="text-center">
-<p>
-  Weather Dashboard
-</p>
-</header>
-
-<main>
-  <div class="btn-container">
-  <h2> Search for a City: </h2>
-
-
-
-<input type="text" placeholder="Austin, Texas" maxlength="50" size="25" > 
-<button id="btn">Search</button>
-<button class="btn">Atlanta</button>
-<button class="btn">Salt Lake City</button>
-<button class="btn">Denver</button>
-<button class="btn">Austin</button>
-<button class="btn">Orlando</button>
-<button class="btn">New York</button>
-<button class="btn">Honolulu</button>
-<button class="btn">Seattle</button>
-
-  </div>
-
-  
-
-
- 
-</main>
-
-</body>
-<footer>
-  Created by Brendalee Alcala &#9829;
-
-</footer>
-
+        <div class="flex gap-10 flex-col w-40  ml-2"  bg->
+        <button class="bg-zinc-600">Atlanta</button>
+        <button class="bg-zinc-600">Salt Lake City</button>
+        <button class="bg-zinc-600">Denver</button>
+        <button class="bg-zinc-600">Austin</button>
+        <button class="bg-zinc-600">Orlando</button>
+        <button class="bg-zinc-600">New York</button>
+        <button class="bg-zinc-600">Honolulu</button>
+        <button class="bg-zinc-600">Seattle</button>
+      </div>
+      
+    </main>
+  </body>
+  <footer>Created by Brendalee Alcala &#9829;</footer>
 </html>

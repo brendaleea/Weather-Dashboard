@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -28,7 +28,7 @@ flex-direction: column;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 } */
 
-.btn-container{
+/* .btn-container{
 display:flex;
 flex-direction: column;
 max-width: 400px;
@@ -46,12 +46,12 @@ justify-content: space-evenly;
   background-color: rgb(89, 149, 209);
   padding: 6px 50px;
   border-radius: 10px;
-  margin-left: 15px;
+  margin-left: 15px; */
  
 
  
 
-}
+/* }
 
 .btn{
  
@@ -63,7 +63,7 @@ margin-left: 15px;
 
 
 
-}
+} */
 
 
 
@@ -79,4 +79,4 @@ bottom: 0;
 
 
 
-}
+} 
