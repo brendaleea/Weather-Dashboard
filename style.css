@@ -1,10 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
+body{
+display: flex;
+flex-direction: column;
+
+}
+
+/* header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +26,57 @@ header {
   padding: 30px;
   background-color: rgb(130, 71, 231);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} */
+
+.btn-container{
+display:flex;
+flex-direction: column;
+max-width: 400px;
+margin: 0;
+justify-content: space-evenly;
+
+
+}
+
+
+
+
+
+#btn{
+  background-color: rgb(89, 149, 209);
+  padding: 6px 50px;
+  border-radius: 10px;
+  margin-left: 15px;
+ 
+
+ 
+
+}
+
+.btn{
+ 
+background-color: grey;
+padding: 6px 50px;
+border-radius: 10px;
+margin-left: 15px;
+
+
+
+
+}
+
+
+
+
+
+
+footer{
+padding: 50px;
+justify-content: center;
+text-align: center;
+bottom: 0;
+
+
+
+
 }
