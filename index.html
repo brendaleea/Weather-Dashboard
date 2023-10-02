@@ -11,27 +11,27 @@
 
 </head>
 
-<body class="h-14 bg-gradient-to-r from-cyan-400 to-blue-800  flex flex-col   " >
+<body class="h-14 bg-gradient-to-r from-cyan-400 to-blue-800    " >
 
   <header class="h-20 bg-gradient-to-r from-sky-400 to-indigo-800 text-5xl text-center  text-green-300 " >
     Weather Dashboard
 
-    <IMG   class="float-right"    class="gifs" SRC="./Assets/images/giphy.gif" alt="gif"      > 
+    <!-- <IMG   class="float-right"    class="gifs" SRC="./Assets/images/giphy.gif" alt="gif"      >  -->
 
   </header>
 
   <main>
 
 
-    <div class="search-container    ">
+    <div class="   flex justify-center text-2xl  items-center flex-col content-center  h-72  float-left block ">
       <h2  class="text-4xl" >Search for a City:</h2>
 
-      <input id="input-text" type="text" placeholder="Enter City Name" spellcheck="false">
+      <input id="input-text" type="text" placeholder="Enter City Name" spellcheck="false"   class="uppercase ">
 
       <button id="search-btn" class="bg-gray-400  rounded-lg  flex flex-col ">Search</button>
     </div>
 
-    <div class=" flex justify-center border  border-x-4 text-4xl  items-center flex-col content-center py-8 max-w-screen-md shadow-2xl h-72  text-white    ">
+    <div class="  flex justify-center border  text-5xl  items-center flex-col content-center py-8 max-w-screen-md shadow-2xl h-72  text-white uppercase ">
       <h1 id="city-name-text" class="text-2xl"> </h1>
       <img src="" alt="" id="icon">
       <p id="temp"> Temp :76.62 °F </p>
@@ -42,12 +42,12 @@
 
 
 
-    <div   class=" text-center   ">
-    <div class="forecast  text-3xl mt-6 mb-8  ">
+    <div   class=" text-center ">
+    <div class="forecast  text-3xl mt-20 mb-8  ">
       <h2> 5-Day Forecast: </h2>
     </div>
 
-    <div class="  border grid grid-cols-5  divide-x  h-64 text-2xl text-white  bg-cyan-800  items-center py-8  h-72  " >
+    <div class="  border grid grid-cols-5  divide-x  h-64 text-2xl text-white  bg-cyan-800  items-center py-8  h-72 float-center " >
     
       <div class="card1"> 10/1/2023 
       <p>Temp: 63.55 °F</p> 

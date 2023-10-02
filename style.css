@@ -1,70 +1,11 @@
-/* 
+
 * {
   margin: 0;
   padding: 0;
- 
-}
-
-body{
-  margin: 0;
-  padding: 0;
-  flex-direction: column;
-  align-items: center; 
-  background-color: rgb(127, 232, 241);
-
-
-}
-
-header{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  font-size: 40px;
-  background-color: rgb(75, 157, 142);
-  
-
-
 }
 
 
 
-
-
-
-
-.forecast-container{
-
-
-
-}
-
-.forecast{
-  display: flex;
-flex-direction: column;
-display: inline-block;
-background-color: rgb(31, 210, 55); 
-float: ;
-
-}
-
-.forecast-cards{
-  display: flex;
-flex-direction: row;
-display: inline-block; 
-background-color: rgb(219, 43, 12);
-
-} */
-
-/* 
-.gifs{
-  width:10%;
-  float: right;
- 
-
-
-}
-
-*/
 
 footer{
 padding: 50px;
