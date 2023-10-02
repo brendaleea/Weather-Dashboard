@@ -1,39 +1,27 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-
+/* 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+ 
 }
 
 body{
-display: flex;
-flex-direction: column;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center; 
+  background-color: rgb(127, 232, 241);
+
 
 }
 
-/* header {
+header{
   display: flex;
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 35px;
-  margin-top: 0px;
-  padding: 30px;
-  background-color: rgb(130, 71, 231);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-} */
-
-/* .btn-container{
-display:flex;
-flex-direction: column;
-max-width: 400px;
-margin: 0;
-justify-content: space-evenly;
+  font-size: 40px;
+  background-color: rgb(75, 157, 142);
+  
 
 
 }
@@ -42,33 +30,36 @@ justify-content: space-evenly;
 
 
 
-#btn{
-  background-color: rgb(89, 149, 209);
-  padding: 6px 50px;
-  border-radius: 10px;
-  margin-left: 15px; */
- 
 
- 
 
-/* }
-
-.btn{
- 
-background-color: grey;
-padding: 6px 50px;
-border-radius: 10px;
-margin-left: 15px;
+.forecast-container{
 
 
 
+}
+
+.forecast{
+  display: flex;
+flex-direction: column;
+display: inline-block;
+background-color: rgb(31, 210, 55); 
+float: ;
+
+}
+
+.forecast-cards{
+  display: flex;
+flex-direction: row;
+display: inline-block; 
+background-color: rgb(219, 43, 12);
 
 } */
 
 
 .gifs{
-  width: 20%;
+  width:10%;
   float: right;
+ 
 
 
 }

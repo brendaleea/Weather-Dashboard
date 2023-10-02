@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <link rel="stylesheet" href="./style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Weather Dashboard </title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title> Weather Dashboard </title>
+
+</head>
+
+<body class="h-14 bg-gradient-to-r from-cyan-400 to-blue-800  flex flex-col   " >
+
+  <header class="h-20 bg-gradient-to-r from-sky-400 to-indigo-800 text-5xl text-center " >
+    Weather Dashboard
+
+    <IMG class="gifs" SRC="./Assets/images/giphy.gif" alt="gif"> 
+
+  </header>
+
+  <main>
+
+
+    <div class="search-container">
+      <h2  class="text-4xl" >Search for a City:</h2>
+
+      <input type="text" placeholder="Enter City Name" spellcheck="false">
+
+      <button class="bg-gray-400  rounded-lg  flex-col  ">Search</button>
+    </div>
+
+    <div class=" flex justify-center border border-4  float-center items-center flex-col content-center">
+      <h1 class="text-2xl">Atlanta (10/01/2022) </h1>
+      <p> Temp :76.62 °F </p>
+      <p> Wind: 8.43 MPH</p>
+      <p> Humidity:44 %</p>
+    </div>
+
+
+
+
+    <div   class=" text-center   ">
+    <div class="forecast  text-3xl mt-6 mb-8">
+      <h2> 5-Day Forecast: </h2>
+    </div>
+
+    <div class="  border grid grid-cols-5  divide-x  h-64 text-2xl text-white  bg-cyan-800  items-center   " >
+    
+      <div class="card1"> 10/1/2023 
+      <p>Temp: 63.55 °F</p> 
+      <p>Wind: 3.94 MPH</p>
+      <p>Humidity: 63%</p>
+    </div>
+    <div class="card2"> 10/2/2023
+      <p>Temp: 63.55 °F</p> 
+      <p>Wind: 3.94 MPH</p>
+      <p>Humidity: 63%</p>
+    </div>
+    <div class="card3"> 10/3/2023
+      <p>Temp: 63.55 °F</p> 
+      <p>Wind: 3.94 MPH</p>
+      <p>Humidity: 63%</p> </div>
+    <div class="card4"> 10/4/2023 
+      <p>Temp: 63.55 °F</p> 
+      <p>Wind: 3.94 MPH</p>
+      <p>Humidity: 63%</p>
+    </div>
+    <div class="card5"> 10/5/2023 
+      <p>Temp: 63.55 °F</p> 
+      <p>Wind: 3.94 MPH</p>
+      <p>Humidity: 63%</p>
+    </div>
+
+  </div>
+  
+
+
    
-  </head>
-
-  <body class="h-14 bg-gradient-to-r from-cyan-400 to-blue-800 font-serif  ">
-
-    <header class="text-center text-a p-10 text-3xl font-extrabold h-14 bg-gradient-to-r from-sky-400 to-indigo-800">
-      
-      <IMG class="gifs"  SRC="./Assets/images/giphy.gif" alt="gif">Weather Dashboard  
-      
-    </header>
-
-    <main>
-
-      
-      <div class="flex gap-3 flex-col w-60  mb-5 text-center ml-8 mt-20">
-        <h2 class="text-2xl	">Search for a City:</h2>
-
-        <input
-          type="text"
-          placeholder="Enter City Name" spellcheck="false">
-          
-        <button class="bg-blue-200 pyx20 w-40 hover:bg-white rounded ">Search</button>
-        </div>
-
-        <div class="flex gap-10 flex-col w-40  ml-8 mt-20 " >
-        <button class="bg-zinc-400 hover:bg-white rounded">Atlanta</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Salt Lake City</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Denver</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Austin</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Orlando</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">New York</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Honolulu</button>
-        <button class="bg-zinc-400 hover:bg-white rounded">Seattle</button>
-      </div>
-
-      <div class="">
-
-        <p> </p>
 
 
-      </div>
-      <IMG SRC="./Assets/images/giphy.gif" alt="gif">
-    </main>
-    <script src="Assets/script.js"></script>
-  </body>
-  <footer>Created by Brendalee Alcala &#9829;</footer>
+
+
+   
+  </main>
+  <script src="Assets/script.js"></script>
+</body>
+<footer>Created by Brendalee Alcala &#9829;</footer>
+
 </html>
