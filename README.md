@@ -3,7 +3,7 @@ Weather Dashboard
 
 ## Description
 
-A deployed portfolio showcase my work to potential employers
+Users will be able to see the weather outlook for multiple cities
 
 
 
@@ -11,7 +11,8 @@ A deployed portfolio showcase my work to potential employers
 
 ![Weather Dashboard](./Assets/images/Screen%20Shot%202023-10-02%20at%2012.09.59%20PM.png)
 
-Link to deployed website: https://brendaleea.github.io/My-Portfolio/
+Link to deployed website: https://brendaleea.github.io/Weather-Dashboard/
+
 
 
 
